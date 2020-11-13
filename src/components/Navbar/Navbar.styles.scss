@@ -1,0 +1,54 @@
+
+nav {
+  background: linear-gradient(to top, black);
+  font-family: "Titillium Web", sans-serif !important;
+  padding: 10px 150px !important;
+
+  .navbar__brand {
+    display: flex;
+    align-items: center;
+
+    &::after {
+      position: absolute;
+      content: "";
+      z-index: -1;
+      top: 0;
+      width: 100%;
+      height: 70%;
+      left: 0;
+      background: linear-gradient(to top, transparent, black);
+      background: -webkit-linear-gradient(to top, transparent, black);
+    }
+    .navbar__logo {
+      width: 80px;
+    }
+
+    h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 28px;
+      padding-left: 5px;
+    }
+  }
+
+  .navbar__address {
+    display: flex;
+    color: white;
+    line-height: 5px;
+    align-items: center;
+
+    p {
+      font-weight: 100;
+      font-size: 13px;
+    }
+
+    span {
+      font-size: 13px;
+      font-weight: 100;
+    }
+    i {
+      font-size: 50px;
+      margin-left: 10px;
+    }
+  }
+}

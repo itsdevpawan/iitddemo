@@ -1,0 +1,37 @@
+.BottomNavbar {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-family: "Titillium Web", sans-serif !important;
+  font-weight: 600;
+
+  .BottomNavbar__items {
+    padding: 20px 120px 10px 120px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    .BottomNavbar__homeIcon {
+      font-size: 20px;
+    }
+
+    li {
+      margin-left: 1rem;
+      margin-right: 1.2rem;
+
+      p {
+        font-size: 19px;
+
+        i {
+          font-size: 15px;
+        }
+      }
+
+      i {
+        margin-left: 3px;
+      }
+    }
+  }
+}

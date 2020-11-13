@@ -1,0 +1,21 @@
+.servicelink1 {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin-top: -180px;
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .servicelink1__card {
+    padding: 30px 15px;
+    text-align: center;
+    width: 330px;
+    height: 230px;
+
+    i {
+      font-size: 70px;
+    }
+  }
+}

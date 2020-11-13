@@ -1,0 +1,114 @@
+.importantannouncement {
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 90px;
+}
+.important-announcement {
+  margin-top: 20px;
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    span {
+      color: #c21717;
+    }
+  }
+}
+.hrline {
+  border-radius: 8px;
+  bottom: 0;
+  content: "";
+  background-color: #c21717;
+  height: 2px;
+  left: 0;
+  right: 0px;
+  margin: 20px auto;
+  position: relative;
+  width: 64px;
+}
+.important-announcement__img img {
+  width: 100%;
+  height: 200px;
+}
+
+.importantannouncement-link {
+  margin-top: 50px;
+  h2 {
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+
+    .icon {
+      margin-top: -5px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+  }
+}
+
+.iacard {
+  margin-top: 70px;
+  display: flex;
+
+  .iacard__delhi {
+    display: flex;
+    width: 750px;
+
+    h3 {
+      font-weight: bold;
+      span {
+        color: #c21717;
+      }
+    }
+    p {
+      font-size: 17px;
+    }
+    button {
+      border: 0.5px solid rgb(165, 165, 165);
+      border-radius: 5px;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: rgb(83, 83, 83);
+      font-size: 15px;
+      outline: none;
+      background: white;
+    }
+  }
+}
+
+.ia__dc {
+  width: 550px;
+  padding: 20px;
+  background-color: #fff4f4;
+  margin-left: 20px;
+
+  h3 {
+    font-weight: bold;
+    span {
+      color: #c21717;
+    }
+  }
+  .ia__dc_child_data {
+  }
+  .ia__dc_child {
+    img {
+      margin-right: 10px;
+    }
+    display: flex;
+  }
+  button {
+    border: 0.5px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    outline: none;
+    background: white;
+  }
+}

@@ -1,0 +1,39 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  p {
+    writing-mode: vertical-rl;
+    padding-bottom: 8px;
+  }
+  i {
+    transform: rotateZ(90deg);
+    margin-left: 15px;
+  }
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding-bottom: 0px;
+  transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  width: 50px;
+
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #c21717;
+  color: white;
+}
